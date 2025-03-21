@@ -1,0 +1,49 @@
+nav{
+    padding:10px;
+    justify-content: space-between;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2) ; 
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.flexdiv {
+    display: flex;
+    align-items: center;
+}
+
+.navleft .menuicon {
+    width: 22px;
+    margin-right: 25px;
+}
+
+.navleft .logo {
+    width: 130px;
+}
+.navmiddle .searchbox{
+    border: 1px solid #ccc;
+    margin-right:15px ;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+.navmiddle .searchbox input{
+    background: transparent;
+    max-width: 400px;
+    border: none;
+    outline: none;
+    width: 400px;
+}
+.navmiddle .searchbox img{
+    width: 25px;
+}
+.navright img{
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    width: 30px;
+    margin-right:25px;
+}
+.navright .usericon{
+    width: 35px;
+    border-radius: 50%;
+}
