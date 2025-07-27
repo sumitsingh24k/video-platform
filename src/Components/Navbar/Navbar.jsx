@@ -13,7 +13,10 @@ const Navbar = ({setSidebar}) => {
     <nav className='flexdiv'>
       <div className="navleft flexdiv">
         <img className='menuicon' onClick={()=>setSidebar(prev=>prev===false?true:false)} src={menuicon}alt="" />
-        <Link to='/'><img className='logo' src={logo} alt="" /></Link>
+        <Link to="/" aria-label="Go to Homepage">
+        <img className="logo" src={logo} alt="Website Logo" />
+        </Link>
+
       </div>
       <div className="navmiddle flexdiv">
         <div className='searchbox flexdiv'> 
